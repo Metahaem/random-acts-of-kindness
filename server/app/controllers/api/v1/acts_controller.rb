@@ -11,7 +11,7 @@ class Api::V1::ActsController < ApplicationController
 
   def create
     @act = Act.new(content: params[:content], category_id: params[:category_id], user_id: params[:user_id])
-    if @act.save
+    if @act.valid? && @act.save
       render json: @act
     else
       render json: {error: "Unable to create act."}, status: 400
