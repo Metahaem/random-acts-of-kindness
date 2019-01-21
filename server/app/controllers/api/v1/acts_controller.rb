@@ -18,8 +18,8 @@ class Api::V1::ActsController < ApplicationController
     end
   end
 
-  def increase_likes
-    @act.act_count += 1
+  def increase_done_count
+    @act.done_count += 1
     @act.save
     render json: @act
   end

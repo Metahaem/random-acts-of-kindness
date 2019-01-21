@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :acts, only: [:index, :show, :create]
       resources :users, only: [:index, :show, :create]
       resources :categories, only: [:index]
+      post 'done', to: 'acts#increase_done_count'
     end
   end
 end
