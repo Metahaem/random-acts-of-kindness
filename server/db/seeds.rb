@@ -5,10 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Act.destroy_all
+User.destroy_all
+Category.destroy_all
+
 
 users = User.create([{name: "Janine"}, {name: "Tom"}])
 
-categories = Category.create([{name: "Animals"}])
+categories = Category.create([{name: "Animals"}, {name: "Environment"}])
 
 # acts = [
 #   { content: "Pet a puppy", user: users[0].id, category: categories[0].id  }
@@ -19,3 +23,4 @@ categories = Category.create([{name: "Animals"}])
 # end
 
 Act.create( content: "Pet a puppy", user: users[0], category: categories[0])
+Act.create( content: "Pick up some litter", user: users[1], category: categories[1])
