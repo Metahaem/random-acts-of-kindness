@@ -10,12 +10,22 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(url: params[:url], name: params[:name])
+    @user = User.new(name: params[:name])
     if @user.save
       render json: @user
     else
       render json: {error: "Unable to create user."}, status: 400
     end
   end
+
+  private
+
+    def user_params
+      params.permit(:name)
+    end
+
+    def find_user
+      @user = User.find(params[:id])
+    end
 
 end

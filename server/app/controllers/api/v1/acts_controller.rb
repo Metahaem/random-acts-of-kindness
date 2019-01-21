@@ -22,12 +22,12 @@ class Api::V1::ActsController < ApplicationController
     @act.act_count += 1
     @act.save
     render json: @act
-  end 
+  end
 
 private
 
   def act_params
-    params.permit(:content)
+    params.permit(:content, :user_ids, :category_ids)
   end
 
   def find_act
