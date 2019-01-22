@@ -1,5 +1,5 @@
 class User < ApplicationRecord
   has_many :acts
-
-  validates :category, presence: true, uniqueness: true
+  has_many :categories, through: :acts
+  validates :name, presence: true, uniqueness: true
 end
