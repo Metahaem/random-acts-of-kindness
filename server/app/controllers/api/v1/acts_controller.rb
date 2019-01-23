@@ -19,8 +19,8 @@ class Api::V1::ActsController < ApplicationController
   end
 
   def increase_done_count
-    @act.done_count += 1
-    @act.save
+    @act = Act.find(params[:act_id])
+    @act.increment!(:done_count)
     render json: @act
   end
 
