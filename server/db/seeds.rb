@@ -36,7 +36,22 @@ acts = [
   {content: "Send a nice message to someone you care about", user_id: 2, category_id: 3, image_url: "https://media.giphy.com/media/Vj02LjCFMdk0U/giphy.gif"},
   {content: "Compliment someone", user_id: 1, category_id: 3, image_url: "https://media.giphy.com/media/3o751Sq3f0eeLjQB0Y/giphy.gif"},
   {content: "Invite a co-worker to lunch", user_id: 2, category_id: 5, image_url: "https://media.giphy.com/media/yxVRIRF0WJUkBckw8g/giphy.gif"},
-  {content: "Plant a tree", user_id: 1, category_id: 2, image_url: "https://media.giphy.com/media/3o7TKp3cFUIxiCW8KI/giphy.gif"}
+  {content: "Plant a tree", user_id: 1, category_id: 2, image_url: "https://media.giphy.com/media/3o7TKp3cFUIxiCW8KI/giphy.gif"},
+  {content: "Buy flowers for a loved one", user_id: 1, category_id: 3, image_url: "https://media1.giphy.com/media/l2QZPmy4WMaj65uxO/giphy.gif?cid=3640f6095c484cf253504349518aa7a6"},
+  {content: "Bring reusable bags to the supermarket", user_id: 1, category_id: 2, image_url: "https://media2.giphy.com/media/CBzsygeMFUK4/giphy.gif?cid=3640f6095c484e884977424e3648e527"},
+  {content: "Volunteer at an old people's home", user_id: 2, category_id: 4, image_url: "https://media0.giphy.com/media/THWLzRn1UFfSahnXsf/giphy.gif?cid=3640f6095c484f7b706777513259b072"},
+  {content: "Make a handmade birthday card for someone", user_id: 1, category_id: 3, image_url: "https://media2.giphy.com/media/2A1hOQAHMBi7SpjpPB/giphy.gif?cid=3640f6095c4850966477305a63c82f0f"},
+  {content: "Check in on an elderly neighbour", user_id: 1, category_id: 3, image_url: "https://media2.giphy.com/media/qeQrQyjhswFgs/giphy.gif?cid=3640f6095c484f12316a426363496693"},
+  {content: "Feed the birds in your local park", user_id: 1, category_id: 1, image_url: "https://media3.giphy.com/media/krewXUB6LBja/giphy.gif?cid=3640f6095c48518b584b597a2ebb9847"},
+  {content: "Buy a coffee for the person behind you in line", user_id: 1, category_id: 4, image_url: "https://media2.giphy.com/media/l1IY8onMgFEotIzew/giphy.gif?cid=3640f6095c4852ee3874594759b516a0"},
+  {content: "Write a recommendation for a co-worker on LinkedIn", user_id: 1, category_id: 5, image_url: "https://media2.giphy.com/media/Pho3J91RgAubP2uhfC/giphy.gif?cid=3640f6095c4855903678685a3211ad49"},
+  {content: "Keep an extra umbrella at work, so you can lend it out when it rains.", user_id: 5, category_id: 5, image_url: "https://media2.giphy.com/media/14d8cRr25KPxbG/giphy.gif?cid=3640f6095c4855cc72787873632dcf88"},
+  {content: "Gift an inspirational book", user_id: 1, category_id: 3, image_url: "https://media0.giphy.com/media/NFA61GS9qKZ68/giphy.gif?cid=3640f6095c485467334a6f41596a04b2"},
+  {content: "Send a gratitude email to a coworker who deserves more recognition", user_id: 1, category_id: 5, image_url: "https://media0.giphy.com/media/IcGkqdUmYLFGE/giphy.gif?cid=3640f6095c4857b23173665851d35be5"},
+  {content: "Volunteer to read to kids at an after-school programme", user_id: 1, category_id: 4, image_url: "https://media3.giphy.com/media/8dYmJ6Buo3lYY/giphy.gif?cid=3640f6095c4858184f4c506a7320ca9e"},
+  {content: "Run an errand for a family member or friend", user_id: 1, category_id: 3, image_url: "https://media2.giphy.com/media/xTiTnuhyBF54B852nK/giphy.gif?cid=3640f6095c48595a37774a6a415fc962"},
+  {content: "Help a friend redecorate", user_id: 1, category_id: 3, image_url: "https://media2.giphy.com/media/irCqmgDvJYAdGq0RmK/giphy.gif?cid=3640f6095c4859cf384e6348512425d6"},
+  {content: "Too many clothes? Donate some to charity.", user_id: 1, category_id: 4, image_url: "https://media2.giphy.com/media/cmxZ9YNEjYWt60vL0W/giphy.gif?cid=3640f6095c485a0756556e324d4bd600"}
 ]
 
 
