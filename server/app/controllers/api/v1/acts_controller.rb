@@ -10,7 +10,7 @@ class Api::V1::ActsController < ApplicationController
   end
 
   def create
-    @act = Act.new(content: params[:content], category_id: params[:category_id], user_id: params[:user_id])
+    @act = Act.new(act_params)
     if @act.valid? && @act.save
       render json: @act
     else
@@ -27,7 +27,7 @@ class Api::V1::ActsController < ApplicationController
 private
 
   def act_params
-    params.permit(:content, :user_ids, :category_ids)
+    params.permit(:content, :user_id, :category_id, :image_url)
   end
 
   def find_act
