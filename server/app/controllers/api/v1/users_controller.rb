@@ -18,6 +18,12 @@ class Api::V1::UsersController < ApplicationController
     end
   end
 
+  def increase_done_count
+    @user = User.find(params[:user_id])
+    @user.increment!(:done_count)
+    render json: @user
+  end
+
   private
 
     def user_params
