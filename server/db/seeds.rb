@@ -30,7 +30,7 @@ acts = [
   {content: "Pet a puppy", user_id: 1, category_id: 1, image_url: "https://media.giphy.com/media/qPuhFBQt8xLEY/giphy.gif"},
   {content: "Pick up some litter", user_id: 2, category_id: 2, image_url: "https://media.giphy.com/media/1YctWh7oIsZPkTXMw2/giphy.gif"},
   {content: "Donate to a local charity", user_id: 1, category_id: 4, image_url: "https://media.giphy.com/media/3o6Zt3OhbsQ5VLPmBW/giphy.gif"},
-  {content: "Buy a hot meal for a homeless person", user_id: 2, category_id: 4, image_url: "https://media.giphy.com/media/5S4CcNKWy7a28XDWyF/giphy.gif"},
+  {content: "Buy a hot meal for a homeless person", user_id: 2, category_id: 4, image_url: "https://media0.giphy.com/media/43JIxXoEoT4ABygGZ7/giphy.gif?cid=3640f6095c4b01fb62733267734c8662"},
   {content: "Volunteer at an animal shelter", user_id: 1, category_id: 1, image_url: "https://media.giphy.com/media/3o7bueStqEca4YftOE/giphy.gif"},
   {content: "Cook/bake something for your neighbour", user_id: 2, category_id: 3, image_url: "https://media.giphy.com/media/Y09s2Frxp7wpBGXTyt/giphy.gif"},
   {content: "Send a nice message to someone you care about", user_id: 2, category_id: 3, image_url: "https://media.giphy.com/media/Vj02LjCFMdk0U/giphy.gif"},
